@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">keenaragg</div>
+      <div class="logo"><a href="/">keenaragg</a></div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#blog">Blog</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
+
     <nav id="hamburger-nav">
       <div class="logo">Ida Sri Afiqah</div>
       <div class="hamburger-menu">
@@ -32,10 +34,12 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#blog" onclick="toggleMenu()">Blog</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
+
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/fix-photo-ai.png" alt="John Doe profile picture" />
@@ -71,6 +75,7 @@
         </div>
       </div>
     </section>
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
@@ -99,7 +104,7 @@
           <div class="text-container">
             <p>
                 Passionate Economics student at Brawijaya University with a focus on analytics skills 
-                and a fervent interest in technology. Proficient in R, Python, SQL, and Tensorflow, 
+                and a fervent interest in technology. Intermediate in R, Python, SQL, and Tensorflow, 
                 with expertise in data visualization and machine learning models. Experienced in 
                 collaborative environments through volunteer work, ready to blend economics and 
                 technology as a driven Data Science Intern, leveraging latest advancements to thrive 
@@ -115,6 +120,7 @@
         onclick="location.href='./#experience'"
       />
     </section>
+
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
@@ -249,6 +255,7 @@
         onclick="location.href='./#projects'"
       />
     </section>
+
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
@@ -316,6 +323,7 @@
         onclick="location.href='./#contact'"
       />
     </section>
+
     <section id="projects">
       <p class="section__text__p1"></p>
       <h1 class="title"></h1>
@@ -372,6 +380,25 @@
         onclick="location.href='./#contact'"
       />
     </section>
+
+    <div id="blog" class="blog">
+      <p class="section__text__p1">Read the article on</p>
+      <h1 class="title">My Blog</h1>
+      <div class="blog-preview">
+        <!-- blog 1 -->
+        <div class="blog-post">
+            <h2>Embarking on a Journey: From Curiosity to AI Advancements</h2>
+            <p class="date">June 9, 2024</p>
+            <p class="excerpt">So, you've clicked your way here. Don't worry, I won't judge your internet stalking skills. Let's see if I can pique your interest even further...</p>
+            <a href="blog/blog-1.html" class="read-more">Read More</a>
+        </div>
+        <!-- end of blog 1 -->
+      </div>
+      <div class="show-more">
+        <a href="blog/all-blog.html">Show More</a>
+      </div>
+    </div>
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -401,6 +428,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>

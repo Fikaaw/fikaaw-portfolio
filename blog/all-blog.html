@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><a href="/">keenaragg</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#experience">Experience</a></li>
+          <li><a href="/#projects">Projects</a></li>
+          <li><a href="/#blog">Blog</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Ida Sri Afiqah</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="/#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="/#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="/#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="/#blog" onclick="toggleMenu()">Blog</a></li>
+          <li><a href="/#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <div id="blog" class="blog">
+      <h1 class="title">All My Blog</h1>
+      <div class="blog-preview">
+        <!-- blog 1 -->
+        <div class="blog-post">
+            <h2>Embarking on a Journey: From Curiosity to AI Advancements</h2>
+            <p class="date">June 9, 2024</p>
+            <p class="excerpt">So, you've clicked your way here. Don't worry, I won't judge your internet stalking skills. Let's see if I can pique your interest even further...</p>
+            <a href="blog/blog-1.html" class="read-more">Read More</a>
+        </div>
+        <!-- end of blog 1 -->
+      </div>
+      <div class="show-more">
+        <a href="/#blog">Beranda</a>
+      </div>
+    </div>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="/#about">About</a></li>
+            <li><a href="/#experience">Experience</a></li>
+            <li><a href="/#projects">Projects</a></li>
+            <li><a href="/#blog">Blog</a></li>
+            <li><a href="/#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Made by Love &#169; 2024 by keenaragg. All Rights Reserved.</p>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>
