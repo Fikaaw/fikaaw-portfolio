@@ -42,7 +42,7 @@
 
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/fix-photo-ai.png" alt="John Doe profile picture" />
+        <img src="./assets/fix-photo-ai.png" alt="Ida Sri Afiqah profile picture" class="animate-float" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -53,25 +53,19 @@
             class="btn btn-color-2"
             onclick="window.open('./assets/resume.pdf')"
           >
-            CV
+            Download CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/ida-sri-afiqah-29047b1b0/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/keenaragg'"
-          />
+          <div class="social-icon" onclick="location.href='https://www.linkedin.com/in/ida-sri-afiqah-29047b1b0/'">
+            <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" />
+          </div>
+          <div class="social-icon" onclick="location.href='https://github.com/keenaragg'">
+            <img src="./assets/github.png" alt="GitHub" class="icon" />
+          </div>
         </div>
       </div>
     </section>
@@ -103,12 +97,14 @@
           </div>
           <div class="text-container">
             <p>
-                Passionate Economics student at Brawijaya University with a focus on analytics skills 
-                and a fervent interest in technology. Intermediate in R, Python, and Tensorflow, 
-                with expertise in data visualization and machine learning models. Experienced in 
-                collaborative environments through volunteer work, ready to blend economics and 
-                technology as a driven Data Science Intern, leveraging latest advancements to thrive 
-                in demanding digital intelligence processing environments.
+                🚀 Passionate Economics student at Brawijaya University with a focus on analytics skills 
+                and a fervent interest in technology. I specialize in R, Python, and TensorFlow, 
+                with expertise in data visualization and machine learning models. 
+                
+                💡 My journey combines economics theory with cutting-edge technology, creating innovative 
+                solutions for complex data challenges. I'm experienced in collaborative environments 
+                through volunteer work and ready to leverage the latest advancements in AI and machine 
+                learning to drive meaningful insights and business value.
             </p>
           </div>
         </div>
@@ -256,6 +252,28 @@
                   <p>Intermediate</p>
                 </div>
               </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Deep Learning</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Computer Vision</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
             </div>
           </div>
         </div>
@@ -399,26 +417,32 @@
       <div class="blog-preview">
         <!-- blog 1 -->
         <div class="blog-post">
+          <div class="blog-post-content">
             <h2>about-me</h2>
             <p class="date">June 9, 2024</p>
             <p class="excerpt">So, you've clicked your way here. Don't worry, I won't judge your internet stalking skills. Let's see if I can pique your interest even further...</p>
             <a href="blog/blog-1.html" class="read-more">Read More</a>
+          </div>
         </div>
         <!-- end of blog 1 -->
         <!-- blog 2 -->
         <div class="blog-post">
+          <div class="blog-post-content">
           <h2>about-me</h2>
           <p class="date">June 9, 2024</p>
           <p class="excerpt">So, you've clicked your way here. Don't worry, I won't judge your internet stalking skills. Let's see if I can pique your interest even further...</p>
           <a href="blog/blog-1.html" class="read-more">Read More</a>
+          </div>
         </div>
         <!-- end of blog 2 -->
         <!-- blog 3 -->
         <div class="blog-post">
+          <div class="blog-post-content">
           <h2>about-me</h2>
           <p class="date">June 9, 2024</p>
           <p class="excerpt">So, you've clicked your way here. Don't worry, I won't judge your internet stalking skills. Let's see if I can pique your interest even further...</p>
           <a href="blog/blog-1.html" class="read-more">Read More</a>
+          </div>
         </div>
         <!-- end of blog 3 -->
       </div>
