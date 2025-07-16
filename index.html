@@ -13,15 +13,16 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="#home">keenaragg</a>
+                <a href="index.html">keenaragg</a>
             </div>
             <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#blog" class="nav-link">Blog</a>
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="certificates.html" class="nav-link">Certificates</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
             </div>
             <div class="hamburger" id="hamburger">
                 <span></span>
@@ -32,7 +33,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section class="hero">
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
@@ -44,7 +45,7 @@
                         that drive business value through machine learning and analytics.
                     </p>
                     <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="contact.html" class="btn btn-primary">Get In Touch</a>
                         <a href="./assets/resume.pdf" class="btn btn-secondary" target="_blank">
                             <i class="fas fa-download"></i> Download CV
                         </a>
@@ -74,410 +75,56 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Quick Links Section -->
+    <section class="quick-links">
         <div class="container">
             <div class="section-header">
-                <p class="section-subtitle">Get to know more</p>
-                <h2 class="section-title">About Me</h2>
+                <h2 class="section-title">Explore My Work</h2>
+                <p class="section-subtitle">Discover my journey, skills, and achievements</p>
             </div>
-            <div class="about-content">
-                <div class="about-cards">
-                    <div class="about-card">
-                        <div class="card-icon">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <h3>Education</h3>
-                        <p>B.E. Economics<br>Brawijaya University</p>
+            <div class="quick-links-grid">
+                <a href="about.html" class="quick-link-card">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-user"></i>
                     </div>
-                    <div class="about-card">
-                        <div class="card-icon">
-                            <i class="fas fa-briefcase"></i>
-                        </div>
-                        <h3>Experience</h3>
-                        <p>Entry Level<br>Data Scientist</p>
+                    <h3>About Me</h3>
+                    <p>Learn about my background, education, and journey in data science</p>
+                </a>
+                <a href="skills.html" class="quick-link-card">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-code"></i>
                     </div>
-                    <div class="about-card">
-                        <div class="card-icon">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <h3>Projects</h3>
-                        <p>5+ Completed<br>ML Projects</p>
+                    <h3>Skills</h3>
+                    <p>Explore my technical skills in data science and machine learning</p>
+                </a>
+                <a href="projects.html" class="quick-link-card">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-project-diagram"></i>
                     </div>
-                </div>
-                <div class="about-text">
-                    <p>
-                        🚀 Passionate Economics student at Brawijaya University with a focus on analytics skills 
-                        and a fervent interest in technology. I specialize in R, Python, and TensorFlow, 
-                        with expertise in data visualization and machine learning models.
-                    </p>
-                    <p>
-                        💡 My journey combines economics theory with cutting-edge technology, creating innovative 
-                        solutions for complex data challenges. I'm experienced in collaborative environments 
-                        through volunteer work and ready to leverage the latest advancements in AI and machine 
-                        learning to drive meaningful insights and business value.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-subtitle">Explore my</p>
-                <h2 class="section-title">Skills & Technologies</h2>
-            </div>
-            <div class="skills-content">
-                <div class="skills-category">
-                    <h3 class="category-title">Data Science</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-database"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>SQL</h4>
-                                <span class="skill-level">Experienced</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-python"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>Python</h4>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-flask"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>Flask</h4>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fab fa-r-project"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>R</h4>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-chart-bar"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>Tableau</h4>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-brain"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>TensorFlow</h4>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
+                    <h3>Projects</h3>
+                    <p>View my portfolio of data science and analytics projects</p>
+                </a>
+                <a href="certificates.html" class="quick-link-card">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-certificate"></i>
                     </div>
-                </div>
-                <div class="skills-category">
-                    <h3 class="category-title">Machine Learning</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-language"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>NLP</h4>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-chart-line"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>Time Series</h4>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-project-diagram"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>Data Modeling</h4>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-cloud"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>Cloud</h4>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-network-wired"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>Deep Learning</h4>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon">
-                                <i class="fas fa-eye"></i>
-                            </div>
-                            <div class="skill-info">
-                                <h4>Computer Vision</h4>
-                                <span class="skill-level">Beginner</span>
-                            </div>
-                        </div>
+                    <h3>Certificates</h3>
+                    <p>Check out my professional certifications and achievements</p>
+                </a>
+                <a href="blog.html" class="quick-link-card">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-blog"></i>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-subtitle">Browse my recent</p>
-                <h2 class="section-title">Projects</h2>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="./assets/project-4.png" alt="Aspect Based Sentiment Analysis">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://drive.google.com/file/d/1YgvSSPO8FjgPl1yCYFT5lwhbt_3cLgFe/view?usp=sharing" target="_blank" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
+                    <h3>Blog</h3>
+                    <p>Read my thoughts on AI, data science, and technology trends</p>
+                </a>
+                <a href="contact.html" class="quick-link-card">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-envelope"></i>
                     </div>
-                    <div class="project-content">
-                        <h3>Aspect Based Sentiment Analysis</h3>
-                        <p>Advanced NLP project analyzing sentiment across different aspects of text data using machine learning techniques.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">NLP</span>
-                            <span class="tech-tag">ML</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="./assets/project-5.png" alt="Stock Analysis">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://drive.google.com/file/d/11XA7W_lUk3beKX7B-pbXlGIk7tl7LXZM/view" target="_blank" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Stock Analysis PT Adi Sarana Armada</h3>
-                        <p>Comprehensive financial analysis and forecasting model for stock performance evaluation.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">R</span>
-                            <span class="tech-tag">Finance</span>
-                            <span class="tech-tag">Analytics</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="./assets/project-6.png" alt="Real Time Clustering">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/Braincore-Engineering/Real-Time-Clustering" target="_blank" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Real Time Clustering</h3>
-                        <p>Dynamic clustering algorithm implementation for real-time data processing and analysis.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Clustering</span>
-                            <span class="tech-tag">Real-time</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="./assets/project-7.png" alt="KRL Infographics">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://public.tableau.com/app/profile/ida.sri.afiqah6484/viz/FinalKRLInfographics/Blue" target="_blank" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>KRL Infographics</h3>
-                        <p>Interactive data visualization dashboard for Jakarta's commuter rail system analysis.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Tableau</span>
-                            <span class="tech-tag">Visualization</span>
-                            <span class="tech-tag">Analytics</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="./assets/project-8.png" alt="Transjakarta Analysis">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://public.tableau.com/app/profile/ida.sri.afiqah6484/viz/TransJakarta_17127876188940/EDA" target="_blank" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Transjakarta Analysis</h3>
-                        <p>Comprehensive analysis using Cohort, RFM Analysis, and K-Means clustering for public transportation data.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Tableau</span>
-                            <span class="tech-tag">Clustering</span>
-                            <span class="tech-tag">RFM</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section id="blog" class="blog">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-subtitle">Read articles on</p>
-                <h2 class="section-title">My Blog</h2>
-            </div>
-            <div class="blog-grid">
-                <article class="blog-card">
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span class="blog-date">June 9, 2024</span>
-                        </div>
-                        <h3>Embarking on a Journey: From Curiosity to AI Advancements</h3>
-                        <p>So, you've clicked your way here. Don't worry, I won't judge your internet stalking skills. Let's see if I can pique your interest even further...</p>
-                        <a href="blog/blog-1.html" class="blog-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-                <article class="blog-card">
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span class="blog-date">June 9, 2024</span>
-                        </div>
-                        <h3>Understanding Machine Learning in Economics</h3>
-                        <p>Exploring the intersection of economics and machine learning, and how data science is transforming financial analysis...</p>
-                        <a href="blog/blog-2.html" class="blog-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-                <article class="blog-card">
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span class="blog-date">June 9, 2024</span>
-                        </div>
-                        <h3>The Future of Data Science</h3>
-                        <p>Discussing emerging trends in data science and artificial intelligence, and what the future holds for data professionals...</p>
-                        <a href="blog/blog-3.html" class="blog-link">
-                            Read More <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-            </div>
-            <div class="blog-cta">
-                <a href="blog/all-blog.html" class="btn btn-outline">View All Posts</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-subtitle">Get in touch</p>
-                <h2 class="section-title">Contact Me</h2>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Email</h4>
-                            <a href="mailto:afiqaahida@gmail.com">afiqaahida@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>LinkedIn</h4>
-                            <a href="https://www.linkedin.com/in/ida-sri-afiqah-29047b1b0/" target="_blank">Connect with me</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <div class="contact-details">
-                            <h4>GitHub</h4>
-                            <a href="https://github.com/keenaragg" target="_blank">View my work</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
+                    <h3>Contact</h3>
+                    <p>Get in touch for collaborations and opportunities</p>
+                </a>
             </div>
         </div>
     </section>
